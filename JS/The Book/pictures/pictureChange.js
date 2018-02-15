@@ -1,5 +1,4 @@
-window.onload = init;
-function init() {
+window.onload = function() {
     var images = document.getElementsByTagName("img");
     for (var i = 0; i < images.length; i++) {
         images[i].onclick = showAnswer;
@@ -12,12 +11,11 @@ function showAnswer(eventObj) {
     name = name + ".jpg";
     image.src = name;
 
-    function reblur(image) {
-        var name = image.id;
-        name = name + "blur.jpg";
-        image.src = name;
-    }
+    setTimeout(reblur, 2000, image);
 }
 
-var andReblur = reblur();
-setTimeout(andreblur, 2000);
+function reblur(image) {
+    var name = image.id;
+    name = name + "blur.jpg";
+    image.src = name;
+}
