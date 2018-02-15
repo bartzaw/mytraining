@@ -1,0 +1,73 @@
+.main-container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.site-menu {
+    background-color: LightCyan;
+    list-style: none;
+}
+
+.sidebar {
+    background-color: Gold;
+}
+
+.site-menu,
+.sidebar {
+    width: 20%;
+}
+
+.main-content {
+    width: 60%;
+    background-color: Bisque;
+}
+
+.site-menu,
+.main-content,
+.sidebar {
+    float: left;
+}
+
+body {
+    font-family: Verdana;
+}
+
+article header h1 {
+    color: green;
+}
+
+article header p {
+    background-color: red;
+    color: white;
+}
+
+article figure {
+    width: 90%;
+    border: 3px solid black;
+    padding: 5px;
+    margin: auto;
+    list-style: none;
+}
+
+article img {
+    width: 100%;
+}
+
+}.site-nav {
+     background-color: LightCyan;
+     list-style: none;
+     padding: 0;
+     width: 200px;
+     border: 1px solid LightBlue;
+ }
+
+.site-nav .site-nav-item:last-child {
+    border-bottom: none;
+}
+.site-nav .site-nav-item a {
+    color: black;
+    text-decoration: none;
+}
+.site-nav .site-nav-item a:hover {
+    text-decoration: underline;
+}

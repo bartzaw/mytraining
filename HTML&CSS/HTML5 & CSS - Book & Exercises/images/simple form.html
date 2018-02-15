@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style/form.css">
+</head>
+<body>
+    <form>
+        <div>
+            <label for="nickname">Twój nick:</label>
+        </div>
+        <div>
+            <input type="text" id="nickname" name="nickname">
+        </div>
+        <div>
+            <label for="user-email">Twój email:</label>
+        </div>
+        <div>
+            <input type="email" id="user-email" name="user-email" required>
+        </div>
+        <div>
+            <textarea rows="10" cols="50" id="content" name="content"
+                      placeholder="Tutaj możesz wpisać treść..."></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Dodaj">
+        </div>
+    </form>
+
+</body>
+</html>
